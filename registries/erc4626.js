@@ -103,6 +103,13 @@ const configs = {
     ],
     start: '2026-03-24',
   },
+  'dynamic-alpha': {
+    doublecounted: true,
+    methodology: 'TVL is the USDC-denominated totalAssets() reported on-chain by the Dynamic Alpha Fundamental 2X Lagoon vault on Arbitrum.',
+    arbitrum: [
+    '0xc047d64dafe9e6ac76508835c17c6719f9278c1c', // Dynamic Alpha Fundamental 2X
+    ],
+  },
   'astake': {
     methodology: "Calculates the total amount of ASTR tokens deposited in the ERC4626 vault",
     astar: ['0x0DC6E8922ac0ECa8287ba22Db14C9Ac9317ed18F'],
